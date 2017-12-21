@@ -5,7 +5,7 @@ from pyzabbix import ZabbixAPI
 
 #coding:utf-8
 host_all = []
-zapi = ZabbixAPI("http://zabbix2.800best.com/")
+zapi = ZabbixAPI("http://zabbix2.abc.com/")
 zapi.login("Admin","zabbix")
 hosts = zapi.host.get()
 hostgroups=zapi.hostgroup.get()
